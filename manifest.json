@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "IncogTab",
+  "version": "1.0",
+  "description": "Open current tab in incognito mode",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "/images/icon16.png",
+      "48": "/images/icon48.png",
+      "128": "/images/icon128.png"
+    },
+    "default_title": "Click to go incognito"
+  },
+  "icons": {
+    "16": "/images/icon16.png",
+    "48": "/images/icon48.png",
+    "128": "/images/icon128.png"
+  }
+}
